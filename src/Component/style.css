@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/weather-icons/2.0.9/css/weather-icons.min.css);
+
+*{
+    margin: 0px;
+    padding: 0px;
+    /* background-color: black; */
+}
+.main-div{
+    /* background-color: rgb(22, 7, 7); */
+    height: 100%;
+}
+.search{
+    /* background-color: black; */
+    text-align: center;
+    margin-top: 40px;
+    
+}
+.searchfor{
+    width: 300px;
+    /* height: 20px; */
+}
+button{
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(43, 205, 226);
+}
+.main{
+    height: 420px;
+    width: 650px;
+    background-color: white;
+    margin-left: 360px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+.logo{
+    height: 160px;
+    width: 100%;
+    /* background-color: chartreuse; */
+    text-align: center;
+    /* margin-top: 80px; */
+}
+i{
+    margin-top: 40px;
+    font-size: 60px;
+}
+body{
+    background-color:rgba(15, 15, 15, 0.938);
+}
+.info{
+    height: 150px;
+    width: 100%;
+    background-color: burlywood;
+}
+.deg, .mood{
+    height: 100%;
+    width: 200px;
+    background-color: black;
+    color: blanchedalmond;
+    text-align: center;
+    /* margin-top: 30px; */
+    float: left;
+}
+.deg-h{
+    margin-top: 30px;
+    font-size: 60px;
+}
+.mood-p{
+    margin-top: 40px;
+    margin-right: 160px;
+    font-size: 30px;
+}
+.mood-p1{
+    margin-right:160px ;
+    margin-top: -20px;
+}
+.date{
+    flex: 0 0 30%;
+    height: 40%;
+    
+    display: flex;
+    justify-content: space-around;background: #70c1b3;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    height: 100%;
+  
+}
+.last{
+    /* height: 100%; */
+    width: 100%;
+    background-color: blueviolet;
+    /* border-radius: 20px; */
+}
+.last-s{
+    width:40px;
+    /* background-color: crimson; */
+    margin-top: 30px ;
+    margin-left: 30px;
+    float: left;
+    /* ;background: #70c1b3; */
+}
+.last-1{
+    width:80px;
+     /* background-color: rgb(177, 220, 20); */
+    float: left; 
+    margin-top: 30px;
+    
+}
